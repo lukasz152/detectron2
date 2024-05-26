@@ -40,7 +40,7 @@ class Detector:
         #from scipy.signal import wiener
         #from skimage.restoration import denoise_nl_means
         #processed_image = wiener(image) #Filtr Wienera
-        #processed_image  = denoise_nl_means(image, h=0.8 * np.std(image))
+        #processed_image  = denoise_nl_means(image, h=0.8 * np.std(image))  # ogromnie wiekszy czas x 100 nieoplacalny !
         return processed_image
 
     def detect_objects(self, image):
